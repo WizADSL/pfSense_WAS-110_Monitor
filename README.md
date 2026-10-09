@@ -2,6 +2,8 @@
 
 This widget will display status from an SFP running the 8311 community firmware version 2.8.3 or higher. It assumes that your module is reachable from pfSense at the IP address 192.168.11.1 (this is typically the default address, if this is not the case the address can be changed in was110.ajax.php).
 
+<img width="706" height="463" alt="image" src="https://github.com/user-attachments/assets/6ef2005d-7beb-42d4-ba21-42ddf10d68da" />
+
 ## Installation
 
 In pfSense go to Diagnostics/Command Prompt and in the Execute box paste:
