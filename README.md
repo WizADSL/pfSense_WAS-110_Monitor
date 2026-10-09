@@ -1,4 +1,4 @@
-# pfSense_WAS-110_Monitor
+# pfSense WAS-110 Monitor
 
 This widget will display status from an SFP running the 8311 community firmware version 2.8.3 or higher. It assumes that your module is reachable from pfSense at the IP address 192.168.11.1 (this is typically the default address, if this is not the case the address can be changed in was110.ajax.php).
 
