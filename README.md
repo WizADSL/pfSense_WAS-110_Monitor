@@ -10,6 +10,6 @@ In pfSense go to Diagnostics/Command Prompt and in the Execute box paste:
 
 `curl -L -o /tmp/was110.zip "https://github.com/WizADSL/pfSense_WAS-110_Monitor/raw/refs/heads/main/was110_widget.zip" && unzip -q -o /tmp/was110.zip -d /tmp/was110_tmp && mv -f /tmp/was110_tmp/was110.inc /usr/local/www/widgets/include/ && mv -f /tmp/was110_tmp/was110*.php /usr/local/www/widgets/widgets/ && rm -rf /tmp/was110.zip /tmp/was110_tmp`
 
-This will download the ZIP file from GitHub, extract it and copy the files to the appropriate directories. You should than find the WAS-110 widget option on the pfSense dashboard.
+This will download the ZIP file from GitHub, extract it and copy the files to the appropriate directories. You should then find the WAS-110 widget option on the pfSense dashboard under Available Widgets.
 
 This project was created with AI and manual tweaks.
